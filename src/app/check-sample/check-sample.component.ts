@@ -22,7 +22,19 @@ export class CheckSampleComponent implements
   AfterViewInit
 {
 
+  quantidade : number = 0
+
   constructor() { }
+
+  adicionar()
+  {
+    this.quantidade += 1
+  }
+
+  remover()
+  {
+    this.quantidade -= 1
+  }
 
   ngDoCheck(): void {
     console.log("ngDoCheck")
