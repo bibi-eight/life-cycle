@@ -33,3 +33,5 @@
     3.4 ngAfterViewChecked( )
 
 <h1>Evento ao destruir</h1>
+
+    4 ngOnDestroy( )
